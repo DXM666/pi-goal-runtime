@@ -28,6 +28,13 @@
 
 ```bash
 npm install
+
+# 从 GitHub 安装（推荐）
+pi install https://github.com/<username>/pi-goal-runtime
+# 或 SSH 方式
+pi install git:git@github.com:<username>/pi-goal-runtime
+
+# 本地绝对路径安装
 pi install /absolute/path/to/pi-goal-runtime
 ```
 
