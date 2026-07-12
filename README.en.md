@@ -30,9 +30,9 @@ A persistent, verifiable outer loop for [Pi](https://pi.dev/docs/latest). It kee
 npm install
 
 # Install from GitHub (recommended)
-pi install https://github.com/<username>/pi-goal-runtime
+pi install https://github.com/DXM666/pi-goal-runtime
 # Or via SSH
-pi install git:git@github.com:<username>/pi-goal-runtime
+pi install git:git@github.com:DXM666/pi-goal-runtime
 
 # Local absolute path
 pi install /absolute/path/to/pi-goal-runtime
