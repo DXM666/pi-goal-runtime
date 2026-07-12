@@ -1,0 +1,28 @@
+{
+  "name": "pi-goal-runtime",
+  "scripts": {
+    "test": "node --test --import tsx test/*.test.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "^0.80.6",
+    "@earendil-works/pi-ai": "^0.80.6"
+  },
+  "private": true,
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest",
+    "tsx": "latest"
+  },
+  "version": "0.3.0",
+  "exports": {
+    "./hooks": "./src/hooks.js",
+    "./core": "./src/core.js"
+  },
+  "pi": {
+    "extensions": [
+      "./src/goal.ts"
+    ]
+  },
+  "type": "module"
+}
